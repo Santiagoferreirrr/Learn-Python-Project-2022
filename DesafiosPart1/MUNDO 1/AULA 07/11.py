@@ -1,0 +1,5 @@
+l = float(input('Largura: '))
+a = float(input('Altura: '))
+r = (l * a)
+print('Sua área total é de {}' .format(r), end=' ')
+print('E você irá precisar de {} baldes de tinta para pintar a parede.' .format(r / 2))

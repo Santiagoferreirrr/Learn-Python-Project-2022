@@ -1,0 +1,5 @@
+n1 =float(input('Primeira nota: '))
+n2 =float(input('Segunda nota: '))
+r1 = (n1 + n2)
+r2 = (r1 / 2)
+print ('Sua nota total é {:.1f} e sua média ficou {:.1f}!' .format(r1, r2))
